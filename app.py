@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Welcome to student records API!"
+	return "Welcome to student records API!\nCreated by Nikhil."
 
 
 @app.route('/students/', methods=['GET', 'POST'])
